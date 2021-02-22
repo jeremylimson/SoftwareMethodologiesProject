@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">BMESapp</string>
+    <string name="Menu" translatable="false">Menu</string>
+
+    <string-array name="picture_names">
+        <item>bmes1</item>
+        <item>bmes2</item>
+        <item>bmes3</item>
+        <item>bmes4</item>
+        <item>bmes5</item>
+        <item>bmes6</item>
+        <item>bmes7</item>
+    </string-array>
+
+    <string-array name="description">
+        <item>This is a random description</item>
+        <item>This is a random description</item>
+        <item>This is a random description</item>
+        <item>This is a random description</item>
+        <item>This is a random description</item>
+        <item>This is a random description</item>
+        <item>This is a random description</item>
+    </string-array>
+
+</resources>
