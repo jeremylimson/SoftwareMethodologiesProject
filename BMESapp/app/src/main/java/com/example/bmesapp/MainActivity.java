@@ -17,16 +17,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
-        eventViewer = findViewById(R.id.eventViewer);
-
-        s1 = getResources().getStringArray(R.array.picture_names);
-        s2 = getResources().getStringArray(R.array.description);
-
-        RecyclerViewAdapter myAdapter = new RecyclerViewAdapter(this, s1, s2, images);
-        eventViewer.setAdapter(myAdapter);
-        eventViewer.setLayoutManager(new LinearLayoutManager(this));
+        setContentView(R.layout.login_page);
     }
 
     public void openWindowmenu(View v) {
