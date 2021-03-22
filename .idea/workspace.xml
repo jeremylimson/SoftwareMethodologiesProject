@@ -18,7 +18,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/BMESapp" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -32,5 +32,11 @@
       <updated>1615577204469</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="634" y="215" key="FileChooserDialogImpl" timestamp="1616363390700">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="634" y="215" key="FileChooserDialogImpl/0.0.1707.920/2560.-529.1920.1040@0.0.1707.920" timestamp="1616363390700" />
   </component>
 </project>
