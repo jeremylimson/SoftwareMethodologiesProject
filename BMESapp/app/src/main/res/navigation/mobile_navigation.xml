@@ -26,4 +26,9 @@
         android:name="com.example.navdrawer.ui.calendar.CalendarFragment"
         android:label="@string/menu_calendar"
         tools:layout="@layout/fragment_calendar" />
+    <activity
+        android:id="@+id/nav_sendemail"
+        android:name="com.example.navdrawer.ui.SendEmail"
+        android:label="Email"
+        tools:layout="@layout/activity_send_email" />
 </navigation>
