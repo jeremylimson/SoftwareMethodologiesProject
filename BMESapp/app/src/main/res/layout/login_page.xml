@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bmes5"
-    >
+    android:background="@drawable/bmes5">
 
     <ImageView
         android:id="@+id/imageView"
@@ -19,42 +18,53 @@
         app:srcCompat="@drawable/bmes4" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/eName"
         android:layout_width="310dp"
         android:layout_height="66dp"
         android:layout_marginStart="50dp"
         android:layout_marginLeft="50dp"
         android:layout_marginTop="297dp"
         android:ems="10"
-        android:textColor="@color/white"
-        android:hint="Email Address"
+        android:hint="Username"
         android:inputType="textPersonName"
+        android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/ePassword"
         android:layout_width="310dp"
         android:layout_height="66dp"
         android:layout_marginStart="50dp"
         android:layout_marginLeft="50dp"
         android:layout_marginTop="417dp"
         android:ems="10"
-        android:textColor="@color/white"
         android:hint="Password"
         android:inputType="textPassword"
+        android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/menuButton"
+        android:id="@+id/eLogin"
         android:layout_width="250dp"
         android:layout_height="66dp"
         android:layout_marginStart="80dp"
         android:layout_marginLeft="80dp"
         android:layout_marginTop="564dp"
-        android:onClick="menu"
         android:text="Login"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvAttemptsInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="668dp"
+        android:text="5 attempts until locked out ( this won't update so remember the number)"
+        android:textColor="#FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
