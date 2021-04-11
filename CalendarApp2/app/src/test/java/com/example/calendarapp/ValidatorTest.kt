@@ -27,5 +27,6 @@ class ValidatorTest{
         val eventDate = "4/11/2021" // see how SQLite database stores date on calendar widget
         val result = Validator.validateEventDate(eventDate)
         assertThat(result).isEqualTo(true)
+        // fix .idea
     }
 }
