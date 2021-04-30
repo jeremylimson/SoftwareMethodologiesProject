@@ -11,4 +11,12 @@
     <string name="menu_news">News</string>
     <string name="menu_calendar">Calendar</string>
     <string name="menu_contacts">Contact Us</string>
+    <string name="about_us_txt">This society is an official chapter (Ch. #40) of the national Biomedical Engineering Society. With
+our Jesuit institution\'s core, we aim to unite and promote the future of biomedical engineering
+through an emphasis on health innovation and scientific advancement for the globally
+underprivileged and neglected. Through servant leadership, BMES shall encourage student
+integrity, provide vocational guidance, and promote student pioneers. Through collaborative,
+hands-on experiences in medical instrument limitation, clinical solution proposals, and critical
+analysis, students will develop qualities and virtues vital for not only a successful career but for
+the betterment of society.</string>
 </resources>
