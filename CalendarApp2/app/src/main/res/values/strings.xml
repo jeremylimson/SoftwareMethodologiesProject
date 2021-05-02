@@ -1,5 +1,0 @@
-<resources>
-    <string name="app_name">CalendarApp</string>
-    <string name="create_an_event">Create An Event</string>
-    <string name="event_description">Event Description</string>
-</resources>
